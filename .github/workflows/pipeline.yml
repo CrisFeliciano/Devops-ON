@@ -195,7 +195,7 @@ jobs:
         run: |
           echo "Deploy PROD" 
 
-  code-analisys:
+code-analisys:
     runs-on: ubuntu-latest
     needs: build
     steps:
